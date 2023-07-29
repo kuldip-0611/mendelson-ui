@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import team from "../teamData";
-import person1 from '../assets/images/Person1.svg';
 import CommonComponent from "./CommonComponent";
 
 const TeamComponent = () => {

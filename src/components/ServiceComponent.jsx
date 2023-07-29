@@ -13,13 +13,13 @@ import asset12 from '../assets/images/Asset12.svg';
 const ServiceComponent = () => {
   return (
     <div className="services-container mt-5" id="service">
-      <img src={asset5} className="asset5" />
-      <img src={asset6} className="asset6" />
-      <img src={asset7} className="asset7" />
-      <img src={asset8} className="asset8" />
-      <img src={asset10} className='asset10' />
-      <img src={asset11} className='asset11' />
-      <img src={asset12} className='asset12' />
+      <img src={asset5} className="asset5"  alt="img of services" />
+      <img src={asset6} className="asset6"  alt="img of services"/>
+      <img src={asset7} className="asset7"  alt="img of services"/>
+      <img src={asset8} className="asset8" alt="img of services" />
+      <img src={asset10} className='asset10' alt="img of services" />
+      <img src={asset11} className='asset11' alt="img of services" />
+      <img src={asset12} className='asset12'  alt="img of services"/>
 
       <Container>
         <div className="mt-5 services-text">
@@ -61,7 +61,7 @@ const ServiceComponent = () => {
                 key={item.index}
                 className={`${item.order ? "order-2" : "order-1"} `}
               >
-                <img src={item.imgLink} className="services-img order-2 " />
+                <img src={item.imgLink} className="services-img order-2 " alt="img" />
               </Col>
             </Row>
           );
